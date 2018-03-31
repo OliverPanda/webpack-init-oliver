@@ -1,0 +1,53 @@
+{
+    "prompts": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "message": "Project name"
+        },
+        "description": {
+            "type": "string",
+            "required": true,
+            "message": "Project description"
+        },
+        "author": {
+            "type": "string",
+            "message": "Author"
+        },
+        "vuex": {
+            "type": "confirm",
+            "message": "use vuex in project?",
+            "default": true
+        },
+        "sass": {
+            "type": "confirm",
+            "message": "use sass?",
+            "default": true
+        },
+        "mint-ui": {
+            "type": "confirm",
+            "message": "use mint-ui?",
+            "default": false
+        },
+        "routerAnimate": {
+            "type": "list",
+            "message": "router animate",
+            "choices": [
+                {
+                    "name": "fase(fade in and fade out)",
+                    "value": "fade",
+                    "short": "fade"
+                },
+                {
+                    "name": "none ( no animation)",
+                    "value": "none",
+                    "short": "none"
+                }
+            ]
+        }
+    },
+    "filters": {
+        "src/store/**/*": "vuex"
+    }
+    
+}
