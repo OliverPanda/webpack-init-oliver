@@ -34,7 +34,7 @@
             "message": "router animate",
             "choices": [
                 {
-                    "name": "fase(fade in and fade out)",
+                    "name": "fade(fade in and fade out)",
                     "value": "fade",
                     "short": "fade"
                 },
