@@ -1,16 +1,16 @@
 {
     "prompts": {
-        "name": {
+        "name: ": {
             "type": "string",
             "required": true,
             "message": "Project name"
         },
-        "description": {
+        "description: ": {
             "type": "string",
             "required": true,
             "message": "Project description"
         },
-        "author": {
+        "author: ": {
             "type": "string",
             "message": "Author"
         },
@@ -26,7 +26,7 @@
         },
         "mint-ui": {
             "type": "confirm",
-            "message": "use mint-ui?",
+            "message": "use mint-ui?(default no)",
             "default": false
         },
         "routerAnimate": {

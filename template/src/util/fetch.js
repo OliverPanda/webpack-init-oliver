@@ -39,6 +39,8 @@ export default async(url = '', type = 'GET', data = {}, method = 'fetch') => {
 
         try {
             return fetch(url, requestHeader).then(responce => responce.json())
+        } catch (e) {
+            console.log(e)
         }
     } else {
         // 不是用fetch的普通请求,返回一个Promise对象
