@@ -8,7 +8,7 @@ import store from './store/index'
 {{/vuex}}
 
 // 解决移动端点击300ms延迟  fastclick
-import fastclick from 'fastclick'
+import FastClick from 'fastclick'
 if ('addEventListener' in document) {
   document.addEventListener('DOMContentLoaded', function () {
     FastClick.attach(document.body)
@@ -30,7 +30,6 @@ Vue.config.productionTip = false
 
 
 import fetch from './util/fetch'
-console.log(fetch.baseUrl)
 
 /* eslint-disable no-new */
 new Vue({
