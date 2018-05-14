@@ -12,7 +12,7 @@
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "fastclick": "1.0.6",
+    "fastclick": "^1.0.6",
     {{#vuex}}
     "vuex": "^3.0.1"
     {{/vuex}}
