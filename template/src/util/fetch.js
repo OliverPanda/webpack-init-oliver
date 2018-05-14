@@ -1,5 +1,5 @@
-// const baseUrl = '';
-exports.baseUrl = '';
+const baseUrl = '';
+// exports.baseUrl = '';
 
 export default async(url = '', type = 'GET', data = {}, method = 'fetch') => {
     url = baseUrl + url;
